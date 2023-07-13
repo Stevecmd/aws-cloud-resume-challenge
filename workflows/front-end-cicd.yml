@@ -3,7 +3,7 @@ name: Website Upload to s3
 on:
   push:
     branches:
-    - main
+    - master
 
 jobs:
   deploy:

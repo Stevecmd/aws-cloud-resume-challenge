@@ -43,7 +43,7 @@
 
 
 // JS code for visitor counter
-const counter = document.querySelector(".visitor_count");
+const counter = document.querySelector(".counter-number");
 async function updateCounter() {
     let response = await fetch("https://gcvbryl5r4exmiel6oba4r6ql40ktdqx.lambda-url.us-east-1.on.aws/");
     let data = await response.json();

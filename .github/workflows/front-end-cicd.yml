@@ -36,7 +36,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: checkout
+      - name: Checkout code
         uses: actions/checkout@master
 
       - name: Configure AWS credentials
@@ -48,4 +48,4 @@ jobs:
 
       - name: Sync with S3
         run: |
-          aws s3 sync ./ s3://$AWS_S3_BUCKET/
+          aws s3 sync ./ s3://$AWS_S3_BUCKET

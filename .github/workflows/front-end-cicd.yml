@@ -74,6 +74,4 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
         AWS_REGION: us-east-1
-
-        env:
-          AWS_S3_GRANT_WRITE: 'arn:aws:iam::652162945585:user/steve-cloud-resume-challenge-s3'
+        AWS_S3_GRANT_WRITE: 'arn:aws:iam::652162945585:user/steve-cloud-resume-challenge-s3'

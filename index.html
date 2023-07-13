@@ -31,6 +31,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
@@ -777,10 +778,9 @@
                         <div class="centered-div">
                     
                     <div class="counter-number">
-                        <p>You are visitor number: <a id="visitor_count">3205</a> </p>
+                        <p>You are visitor number: <a id="Visit_Count">3205</a> </p>
                         <!-- Below is output from DynamoDB -->
-                        <div class="centered-div counter-number">Couldn't read the counters</div>
-                        <!-- <p>Visits: <span id="visits"></span></p> -->
+                        <div class="centered-div counter-number">Couldn't read the counter</div>
                     </div>
                 </div>
             </div>
@@ -808,7 +808,7 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <!-- Visitor counter  -->
-    <script src="js/script.js"></script>
+    <script src="Lambdas/lambda.py"></script>
 </body>
 
 </html>
